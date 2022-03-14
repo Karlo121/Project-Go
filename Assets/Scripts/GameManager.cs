@@ -8,12 +8,17 @@ public class GameManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        Instantiate(stone, new Vector3(0, 0, -1), Quaternion.identity);
     }
 
     // Update is called once per frame
     void Update()
     {
+                if (Input.GetKeyDown(KeyCode.Mouse0))
+        {
+            Vector3 pos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+            pos.z = 0;
+            Instantiate(stone, pos, Quaternion.identity);
+        }
 
     }
 }
