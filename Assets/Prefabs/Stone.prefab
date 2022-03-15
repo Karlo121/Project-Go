@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2630726979253968793}
   - component: {fileID: 4863630819418330361}
+  - component: {fileID: -8199644777128718488}
   m_Layer: 0
   m_Name: Stone
   m_TagString: Untagged
@@ -82,3 +83,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &-8199644777128718488
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 230639663899019834}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f1b53e9c42b61944a97d18b6cf193589, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  controller: {fileID: 0}
+  placeStone: {fileID: 0}
+  whiteStone: {fileID: 21300000, guid: 7e19985cc7a58bb45859a714ca0c4564, type: 3}
+  blackStone: {fileID: 21300000, guid: bb568aa82c88a1c45ab6c20a0182cd05, type: 3}
